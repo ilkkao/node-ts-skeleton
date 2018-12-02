@@ -1,0 +1,17 @@
+{
+  "name": "node-ts-skeleton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ilkka Oksanen <ilkka@iao.fi>",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "dev": "ts-node-dev index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.11",
+    "ts-node-dev": "^1.0.0-pre.31",
+    "typescript": "^3.2.1"
+  }
+}
